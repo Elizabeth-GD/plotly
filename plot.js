@@ -1,4 +1,4 @@
-d3.json("data/data.json").then((data) => {
+d3.json("data.json").then((data) => {
     //  Create the Traces
     var trace1 = {
         x: data.organ,
